@@ -1,0 +1,969 @@
+{
+  "metadata": {
+    "version": "1.3.0",
+    "language": "en",
+    "description": "Standardized V2 Intensity Engine Lexicon - Merged Empath + Milestones",
+    "last_updated": "2026-03-22",
+    "suffixes": ["ing", "ed", "tion", "sion", "ment", "ness", "ly", "er", "est", "ful", "less", "ous", "ive", "able", "ible", "al", "ize", "ise", "ity", "ence", "ance"]
+  },
+  "categories": {
+    "pride_and_achievement": {
+      "weight_groups": {
+        "critical": [
+          "championship",
+          "milestone",
+          "valedictorian"
+        ],
+        "high": [
+          "accomplished",
+          "achievement",
+          "bonus",
+          "champion",
+          "diploma",
+          "dissertation",
+          "earned",
+          "interview",
+          "launched",
+          "legend",
+          "legendary",
+          "overcome",
+          "pinnacle",
+          "pride",
+          "relief",
+          "resigned",
+          "retired",
+          "succeeded",
+          "triumph",
+          "victory"
+        ]
+      }
+    },
+    "physical_health_and_injury": {
+      "weight_groups": {
+        "critical": [
+          "ambulance",
+          "biopsy",
+          "brain dead",
+          "cancer",
+          "cardiac arrest",
+          "chemotherapy",
+          "coma",
+          "comatose",
+          "concussion",
+          "diagnosis",
+          "emergency",
+          "hemorrhage",
+          "heart attack",
+          "hospital",
+          "icu",
+          "incurable",
+          "infection",
+          "injured",
+          "lethal",
+          "leukemia",
+          "life support",
+          "malignant",
+          "miscarriage",
+          "newborn",
+          "overdose",
+          "paralysis",
+          "paralyze",
+          "relapse",
+          "resuscitated",
+          "seizure",
+          "stitches",
+          "stroke",
+          "surgery",
+          "terminal",
+          "tumor",
+          "unconscious",
+          "unresponsive"
+        ],
+        "high": [
+          "broke",
+          "chronic",
+          "collapsed",
+          "debilitating",
+          "excruciating",
+          "exhausted",
+          "fainted",
+          "fracture",
+          "gash",
+          "intracranial",
+          "intrusive",
+          "laceration",
+          "pregnancy",
+          "throbbing",
+          "trimester",
+          "ultrasound"
+        ]
+      }
+    },
+    "mental_health_and_anxiety": {
+      "weight_groups": {
+        "critical": [
+          "addicted",
+          "schizophrenia",
+          "sober",
+          "suicidal",
+          "suicide",
+          "therapy"
+        ],
+        "high": [
+          "anguish",
+          "anxiety",
+          "breakdown",
+          "depressed",
+          "distraught",
+          "isolation",
+          "lonely",
+          "nightmarish",
+          "numb",
+          "overwhelmed",
+          "panic",
+          "terror",
+          "terrorized",
+          "triggered"
+        ]
+      }
+    },
+    "financial_events": {
+      "weight_groups": {
+        "critical": [
+          "bankrupt",
+          "bankruptcy",
+          "evicted",
+          "foreclosure",
+          "lottery",
+          "mortgage"
+        ],
+        "high": [
+          "afford",
+          "debt",
+          "invested",
+          "loan",
+          "raise",
+          "salary",
+          "savings"
+        ]
+      }
+    },
+    "legal_and_civic": {
+      "weight_groups": {
+        "critical": [
+          "abduction",
+          "arrest",
+          "arrested",
+          "assassin",
+          "assassination",
+          "assault",
+          "burglary",
+          "citizenship",
+          "convicted",
+          "crime",
+          "custody",
+          "deported",
+          "felony",
+          "homicide",
+          "imprisonment",
+          "incarceration",
+          "interrogation",
+          "invasion",
+          "kidnapping",
+          "kill",
+          "killer",
+          "killing",
+          "lawsuit",
+          "manslaughter",
+          "murder",
+          "murderer",
+          "murderous",
+          "prison",
+          "rape",
+          "rapist",
+          "robbery",
+          "sentencing",
+          "shootout",
+          "trial",
+          "verdict"
+        ],
+        "high": [
+          "prosecute",
+          "visa"
+        ]
+      }
+    },
+    "education_and_growth": {
+      "weight_groups": {
+        "critical": [
+          "degree",
+          "graduation",
+          "scholarship"
+        ],
+        "high": [
+          "certified",
+          "exam",
+          "failed",
+          "passed",
+          "published",
+          "thesis"
+        ]
+      }
+    },
+    "housing_and_domestic": {
+      "weight_groups": {
+        "critical": [
+          "eviction"
+        ],
+        "high": [
+          "apartment",
+          "lease",
+          "neighbor",
+          "renovation",
+          "reunion",
+          "roommate"
+        ]
+      }
+    },
+    "death_and_grief": {
+      "weight_groups": {
+        "critical": [
+          "buried",
+          "cremated",
+          "death",
+          "deathbed",
+          "deceased",
+          "eulogy",
+          "funeral",
+          "memorial",
+          "obituary",
+          "orphan",
+          "passed away",
+          "put down",
+          "rest in peace",
+          "widow"
+        ],
+        "high": [
+          "ashes",
+          "condolence",
+          "grief",
+          "hospice",
+          "sorrow",
+          "suffering"
+        ]
+      }
+    },
+    "cultural_and_holidays": {
+      "weight_groups": {
+        "critical": [
+          "christmas",
+          "diwali",
+          "easter",
+          "eid",
+          "kwanzaa",
+          "passover",
+          "proposal",
+          "ramadan",
+          "wedding"
+        ],
+        "high": [
+          "anniversary",
+          "birthday party",
+          "bride",
+          "carnival",
+          "celebration",
+          "ceremony",
+          "festive",
+          "festivities",
+          "groom",
+          "halloween",
+          "holiday",
+          "homecoming",
+          "honeymoon",
+          "jubilee",
+          "new years",
+          "solstice",
+          "thanksgiving",
+          "tradition",
+          "vacation",
+          "valentine",
+          "vows"
+        ]
+      }
+    },
+    "sports_and_athletics": {
+      "weight_groups": {
+        "critical": [
+          "championship",
+          "ironman",
+          "marathon",
+          "olympics",
+          "playoffs",
+          "superbowl",
+          "worldcup"
+        ],
+        "high": [
+          "athlete",
+          "clutch",
+          "match",
+          "medal",
+          "overtime",
+          "qualifier",
+          "rivalry",
+          "scoreless",
+          "triathlon",
+          "undefeated",
+          "varsity"
+        ]
+      }
+    },
+    "disasters_and_crises": {
+      "weight_groups": {
+        "critical": [
+          "bomb",
+          "bomber",
+          "bombing",
+          "carnage",
+          "catastrophe",
+          "disaster",
+          "earthquake",
+          "explosion",
+          "explosive",
+          "extinction",
+          "famine",
+          "flood",
+          "genocide",
+          "hurricane",
+          "nuke",
+          "nuclear",
+          "tsunami",
+          "wildfire"
+        ],
+        "high": [
+          "aftermath",
+          "blackout",
+          "casualty",
+          "devastation",
+          "displacement",
+          "evacuation",
+          "lockdown",
+          "pandemic",
+          "quarantine",
+          "refugee",
+          "sabotage",
+          "survivor",
+          "tornado",
+          "tragedy"
+        ]
+      }
+    },
+    "arts_and_performance": {
+      "weight_groups": {
+        "critical": [
+          "broadway",
+          "exhibition",
+          "masterpiece",
+          "recital",
+          "soliloquy"
+        ],
+        "high": [
+          "acclaim",
+          "audition",
+          "backstage",
+          "concert",
+          "creative",
+          "gallery",
+          "orchestra",
+          "performer",
+          "rehearsal"
+        ]
+      }
+    },
+    "spirituality_and_faith": {
+      "weight_groups": {
+        "critical": [
+          "afterlife",
+          "atonement",
+          "baptized",
+          "conversion",
+          "enlightenment",
+          "ordained",
+          "ordinance",
+          "pilgrimage",
+          "sacrament",
+          "salvation"
+        ],
+        "high": [
+          "devotion",
+          "gospel",
+          "meditation",
+          "miracle",
+          "miraculous",
+          "monastery",
+          "mosque",
+          "prayer",
+          "sacred",
+          "sermon",
+          "sinner",
+          "spiritual",
+          "synagogue",
+          "temple",
+          "testimony",
+          "worship"
+        ]
+      }
+    },
+    "pets_and_animals": {
+      "weight_groups": {
+        "critical": [
+          "bereavement",
+          "euthanized",
+          "irremediable",
+          "rescue",
+          "shelter"
+        ],
+        "high": [
+          "bond",
+          "foster",
+          "kitten",
+          "obedience",
+          "puppy",
+          "purebred",
+          "stray",
+          "vet",
+          "veterinary"
+        ]
+      }
+    },
+    "conflict_and_trauma": {
+      "weight_groups": {
+        "critical": [
+          "abuse",
+          "abused",
+          "aggression",
+          "agony",
+          "atrocity",
+          "crashed",
+          "flashback",
+          "massacre",
+          "nightmares",
+          "oppression",
+          "robbed",
+          "ruthless",
+          "scarred",
+          "slaughter",
+          "slay",
+          "torture",
+          "violation",
+          "violence",
+          "violent"
+        ],
+        "high": [
+          "abandonment",
+          "adversity",
+          "animosity",
+          "betrayal",
+          "bloodshed",
+          "brutality",
+          "bullied",
+          "conflict",
+          "contempt",
+          "counseling",
+          "cruelty",
+          "gaslit",
+          "harassment",
+          "hostility",
+          "isolation",
+          "loathing",
+          "malice",
+          "manipulated",
+          "ptsd",
+          "rage",
+          "repressed",
+          "sadistic",
+          "savage",
+          "shame",
+          "trauma",
+          "traumatized",
+          "vengeance",
+          "vicious",
+          "victim",
+          "wrath"
+        ]
+      }
+    },
+    "life_milestones_legacy": {
+      "description": "Core milestones from V1 continued",
+      "weight_groups": {
+        "critical": [
+          "accident",
+          "adopt",
+          "adopted",
+          "adoption",
+          "baby",
+          "bankruptcy",
+          "birth",
+          "born",
+          "career",
+          "child",
+          "college",
+          "divorce",
+          "divorcee",
+          "divorced",
+          "engaged",
+          "engagement",
+          "fired",
+          "first day",
+          "first kiss",
+          "graduated",
+          "graduation",
+          "hired",
+          "homeowner",
+          "illness",
+          "inheritance",
+          "laid off",
+          "legacy",
+          "married",
+          "moved",
+          "new chapter",
+          "parent",
+          "pregnant",
+          "promoted",
+          "quit",
+          "recovery",
+          "relocated",
+          "retirement",
+          "school",
+          "travel",
+          "treatment"
+        ],
+        "high": [
+          "job"
+        ]
+      }
+    },
+    "emotional_extremes_positive": {
+      "weight": "high",
+      "words": [
+        "adore",
+        "amazed",
+        "amazing",
+        "awesome",
+        "beautiful",
+        "blessed",
+        "bliss",
+        "blissful",
+        "brightest",
+        "brilliant",
+        "cherished",
+        "content",
+        "delighted",
+        "ecstacy",
+        "ecstatic",
+        "elated",
+        "enthusiasm",
+        "euphoric",
+        "excellence",
+        "excited",
+        "exhilarated",
+        "exuberant",
+        "fantastic",
+        "glorious",
+        "grateful",
+        "happiness",
+        "heavenly",
+        "incredible",
+        "joyful",
+        "joyous",
+        "love",
+        "magnificent",
+        "marvelous",
+        "outstanding",
+        "overjoyed",
+        "paradise",
+        "passionate",
+        "perfect",
+        "pleasure",
+        "proud",
+        "radiant",
+        "superb",
+        "thrilled",
+        "triumphant",
+        "wonderful"
+      ]
+    },
+    "emotional_extremes_negative": {
+      "weight": "high",
+      "words": [
+        "agonizing",
+        "appalling",
+        "atrocious",
+        "catastrophic",
+        "crushed",
+        "depressing",
+        "despair",
+        "destroyed",
+        "devastated",
+        "discouraging",
+        "disgusting",
+        "dreadful",
+        "excruciating",
+        "furious",
+        "gloomy",
+        "hate",
+        "heartbroken",
+        "hopeless",
+        "horrible",
+        "horrific",
+        "humiliating",
+        "miserable",
+        "misery",
+        "mourning",
+        "nightmare",
+        "painful",
+        "panicked",
+        "sorrow",
+        "suffering",
+        "terrible",
+        "terrifying",
+        "tragic",
+        "worthless",
+        "wretched"
+      ]
+    },
+    "transformation_realization": {
+      "weight": "high",
+      "words": [
+        "accept",
+        "acknowledge",
+        "admit",
+        "aware",
+        "awareness",
+        "awakened",
+        "awakening",
+        "breakthrough",
+        "changed",
+        "clarity",
+        "comprehend",
+        "concluded",
+        "conscious",
+        "decided",
+        "discovered",
+        "enlightened",
+        "epiphany",
+        "evolution",
+        "expansion",
+        "fathom",
+        "figured",
+        "grasp",
+        "growth",
+        "insight",
+        "learned",
+        "mindset",
+        "noticed",
+        "observation",
+        "perceive",
+        "perspective",
+        "realization",
+        "realized",
+        "recognize",
+        "recognized",
+        "resolution",
+        "revelation",
+        "shift",
+        "transformed",
+        "understand",
+        "understood",
+        "vision",
+        "wisdom"
+      ]
+    },
+    "relationship_significance": {
+      "weight": "high",
+      "words": [
+        "betrayal",
+        "bonded",
+        "breakup",
+        "broke up",
+        "breaking up",
+        "closeness",
+        "commitment",
+        "companionship",
+        "conflict",
+        "connection",
+        "dating",
+        "family",
+        "fell in love",
+        "forgive",
+        "friend",
+        "goodbye",
+        "got engaged",
+        "hug",
+        "intimacy",
+        "kissed",
+        "lost",
+        "lover",
+        "met",
+        "miss",
+        "moved in",
+        "moving in",
+        "partner",
+        "reconciled",
+        "reunited",
+        "romance",
+        "separated",
+        "spouse",
+        "support",
+        "together",
+        "trust"
+      ]
+    },
+    "intensity_amplifiers": {
+      "weight": "medium",
+      "words": [
+        "absolutely",
+        "bitterly",
+        "completely",
+        "deeply",
+        "end",
+        "especially",
+        "exceedingly",
+        "extraordinarily",
+        "extremely",
+        "found",
+        "genuinely",
+        "greatly",
+        "highly",
+        "incredibly",
+        "intense",
+        "intensely",
+        "last",
+        "left",
+        "massively",
+        "new",
+        "old",
+        "profoundly",
+        "purely",
+        "radically",
+        "really",
+        "remarkably",
+        "severely",
+        "significantly",
+        "stop",
+        "strikingly",
+        "supremely",
+        "totally",
+        "truly",
+        "utterly",
+        "vastly",
+        "very",
+        "wildly",
+        "soo",
+        "sooo"
+      ]
+    },
+    "cognitive_struggle": {
+      "weight_groups": {
+        "high": [
+          "agonized",
+          "conflicted",
+          "debated",
+          "indecisive",
+          "obsessed",
+          "overthink",
+          "overthinking",
+          "overthought",
+          "paralyzed",
+          "reconsider",
+          "reconsidered",
+          "ruminated",
+          "second-guessed",
+          "second-guessing",
+          "spiraled",
+          "tormented",
+          "wavered",
+          "wrestled"
+        ],
+        "medium": [
+          "almost",
+          "thought about",
+          "considered",
+          "guess",
+          "figuring out",
+          "trying to understand",
+          "thinking about",
+          "unsure about",
+          "not sure",
+          "hesitate",
+          "hesitated",
+          "hesitating",
+          "questioning",
+          "unsure",
+          "wondered"
+        ]
+      }
+    },
+    "internal_conflict": {
+      "weight_groups": {
+        "high": [
+          "should have",
+          "should not have",
+          "wish i",
+          "wish i had",
+          "caved in",
+          "fought the urge",
+          "forced myself",
+          "forcing myself",
+          "gave in",
+          "gave up",
+          "give in",
+          "give up",
+          "given in",
+          "giving in",
+          "giving up",
+          "held back",
+          "holding back",
+          "let go",
+          "letting go",
+          "talked myself out"
+        ],
+        "medium": [
+          "compromised",
+          "conceded",
+          "resist",
+          "resisted",
+          "resisting",
+          "restraint",
+          "settled"
+        ]
+      }
+    },
+    "behavioral_effort_energy": {
+      "weight_groups": {
+        "high": [
+          "so tired",
+          "too tired",
+          "at my limit",
+          "broke down",
+          "burnout",
+          "drained",
+          "hit a wall",
+          "pushed myself",
+          "running on empty",
+          "wiped out"
+        ],
+        "medium": [
+          "endured",
+          "fatigued",
+          "grinded",
+          "persevered",
+          "strained",
+          "trudged"
+        ]
+      }
+    },
+    "social_micro_actions": {
+      "weight_groups": {
+        "high": [
+          "broke the news",
+          "called out",
+          "came clean",
+          "confessed",
+          "confronted",
+          "opened up",
+          "reached out",
+          "stood up"
+        ],
+        "medium": [
+          "admitted",
+          "apologized",
+          "pleaded",
+          "unloaded",
+          "vented"
+        ]
+      }
+    },
+    "outcome_markers": {
+      "weight_groups": {
+        "critical": [
+          "failed completely",
+          "failing completely",
+          "fails completely"
+        ],
+        "high": [
+          "all for nothing",
+          "backfiring",
+          "backfired",
+          "came through",
+          "ended badly",
+          "ended well",
+          "ending badly",
+          "ending well",
+          "fell apart",
+          "paid off",
+          "pulled it off",
+          "turned out",
+          "turning out",
+          "turns out",  
+          "worked out",
+          "working out",
+          "works out" 
+        ],
+        "medium": [
+          "concluded",
+          "finalized",
+          "resolved",
+          "settled",
+          "wrapped up",
+          "worked",
+          "didn't work",
+          "did not work"  
+        ]
+      }
+    },
+    "temporal_high": {
+      "weight": "high",
+      "words": [
+        "always",
+        "begin",
+        "beginning",
+        "closure",
+        "commence",
+        "complete",
+        "conclude",
+        "concluding",
+        "debut",
+        "ending",
+        "eternal",
+        "final",
+        "finish",
+        "finished",
+        "first",
+        "forever",
+        "inaugural",
+        "inception",
+        "infinite",
+        "initial",
+        "maiden",
+        "never",
+        "original",
+        "originate",
+        "permanent",
+        "premiere",
+        "previous",
+        "start",
+        "started",
+        "sudden",
+        "temporary",
+        "terminate",
+        "transition",
+        "ultimate"
+      ]
+    },
+    "time_experience": {
+      "weight_groups": {
+        "medium": ["finally", "eventually", "all day", "all night", "for hours"]
+      }
+    }
+  }
+}

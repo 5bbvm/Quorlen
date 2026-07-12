@@ -1,0 +1,19 @@
+{
+  "name": "narvo",
+  "version": "1.0.0",
+  "description": "A standalone, zero-dependency text worthiness scorer and lexicon analysis engine.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node example.ts",
+    "test": "ts-node example.ts"
+  },
+  "author": "Muthana ALMaiah",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
