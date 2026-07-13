@@ -4,13 +4,35 @@
   "description": "A standalone, zero-dependency text worthiness scorer and lexicon analysis engine.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "build": "tsc",
     "start": "ts-node example.ts",
-    "test": "ts-node example.ts"
+    "test": "ts-node example.ts",
+    "prepublishOnly": "npm run build"
   },
   "author": "Muthana ALMaiah",
   "license": "MIT",
+  "keywords": [
+    "text-worthiness",
+    "nlp",
+    "sentiment-analysis",
+    "lexicon",
+    "text-intensity",
+    "deterministic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5bbvm/Narvo.git",
+    "directory": "javascript"
+  },
+  "bugs": {
+    "url": "https://github.com/5bbvm/Narvo/issues"
+  },
+  "homepage": "https://github.com/5bbvm/Narvo/tree/main/javascript#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "files": [
     "dist"
   ],

@@ -25,7 +25,9 @@ coverage
 dist/
 build/
 out/
-javascript/dist/
+
+# npm pack tarballs
+*.tgz
 
 # Dependency directories
 node_modules/
