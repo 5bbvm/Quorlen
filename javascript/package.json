@@ -1,12 +1,12 @@
 {
   "name": "quorlen",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A standalone, zero-dependency text worthiness scorer and lexicon analysis engine.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node -e \"const fs = require('fs'); fs.copyFileSync('src/dictionary.json', 'dist/dictionary.json');\"",
     "start": "ts-node example.ts",
     "test": "ts-node example.ts",
     "prepublishOnly": "npm run build"
